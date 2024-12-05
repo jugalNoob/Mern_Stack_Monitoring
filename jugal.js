@@ -1,32 +1,32 @@
-const express= require('express')
+// const express= require('express')
 
-const app=express()
-
-
-const port= process.env.PORT || 9000
+// const app=express()
 
 
-app.get("/" ,(req,res)=>{
-
-    res.send("jugal sharma")
-})
+// const port= process.env.PORT || 9000
 
 
+// app.get("/" ,(req,res)=>{
 
-app.get("/home" ,(req,res)=>{
-
-    res.send("jugal sharma home")
-})
-
-
-app.get("/about" ,(req,res)=>{
-
-    res.send("jugal karna about home")
-})
+//     res.send("jugal sharma")
+// })
 
 
 
+// app.get("/home" ,(req,res)=>{
 
-app.listen(port, () => {
-    console.log(`Server is running on port ${port}`)
-})
+//     res.send("jugal sharma home")
+// })
+
+
+// app.get("/about" ,(req,res)=>{
+
+//     res.send("jugal karna about home")
+// })
+
+
+
+
+// app.listen(port, () => {
+//     console.log(`Server is running on port ${port}`)
+// })
